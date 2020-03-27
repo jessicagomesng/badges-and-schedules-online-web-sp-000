@@ -11,6 +11,6 @@ end
 
 def assign_rooms(attendees)
   counter = 1
-  while counter < 1 attendees.collect do |attendant|
+  while counter < 7 attendees.collect do |attendant|
   end
 end
