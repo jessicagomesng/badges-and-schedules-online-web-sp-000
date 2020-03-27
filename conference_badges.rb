@@ -12,4 +12,4 @@ end
 def assign_rooms(attendees)
   attendees.each do |attendant|
     
-end 
+end
