@@ -4,7 +4,7 @@ def badge_maker(name)
 end
 
 def badge_batch_creator(attendees)
-  attendees.each do |name|
-    badge_maker(name)
+  attendees.each do |attendant|
+    badge_maker(attendant)
   end
 end
