@@ -20,5 +20,5 @@ def printer
     puts "#{element}"
   end
   assign_rooms(attendees) each. do |element|
-    puts {}
-end
+    puts "#{element}"
+  end
