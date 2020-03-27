@@ -11,7 +11,7 @@ end
 
 def assign_rooms(attendees)
   counter = 1
-  while counter <= 7 attendees.each_with_index do |attendant, index|
+  while counter < 7 attendees.each_with_index do |attendant, index|
     "Hello, #{attendant[index]}! You'll be assigned to room #{counter}"
     counter += 1
   end
