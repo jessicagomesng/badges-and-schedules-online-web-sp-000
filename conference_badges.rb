@@ -13,6 +13,7 @@ def assign_rooms(attendees)
   counter = 1
   while counter < 7
     attendees.collect do |attendant|
-      "Hello, #{attendant}! You'll be assigned to room #{counter}!" 
+      "Hello, #{attendant}! You'll be assigned to room #{counter}!"
+    end 
   end
 end
